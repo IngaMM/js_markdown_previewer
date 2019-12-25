@@ -1,0 +1,48 @@
+body {
+  background: #034f84;
+}
+
+#app {
+  text-align: center;
+}
+
+#editorContainer,
+#previewContainer {
+  width: 735px;
+  margin: auto;
+  border: 2px solid black;
+}
+
+#editorContainer {
+  margin-bottom: 50px;
+  height: 300px;
+}
+
+#editorHeader,
+#previewHeader {
+  background: #f7786b;
+  font-size: 25px;
+  color: white;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+}
+
+#editor {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  border: none;
+  background: #92a8d1;
+  padding: 0px;
+}
+
+#editor:focus {
+  outline-width: 0;
+}
+
+#preview {
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #92a8d1;
+}
